@@ -13,6 +13,8 @@ public class ImageLoader extends AsyncTask<String, Void, Bitmap> {
         mListener = listener;
     }
 
+
+
     public interface Listener{
         void onImageLoaded(Bitmap bitmap);
         void onError();

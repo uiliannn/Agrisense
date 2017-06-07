@@ -6,7 +6,12 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_action"
-            android:title="Task" />
+            android:title="Formulario" />
+        <item
+            android:id="@+id/action_shareApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share"
+            app:showAsAction="ifRoom" />
     </group>
 
 </menu>

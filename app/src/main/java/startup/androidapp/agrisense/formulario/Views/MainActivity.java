@@ -58,7 +58,7 @@ public class MainActivity extends BaseActivity
         }
 
         this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this, "Please click once more to exit", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "aperte mais uma vez para sair", Toast.LENGTH_SHORT).show();
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -75,6 +75,9 @@ public class MainActivity extends BaseActivity
 
         if (id == R.id.nav_home) {
 
+        }
+        else if (id == R.id.action_shareApp) {
+            controller.share();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

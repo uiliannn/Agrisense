@@ -77,6 +77,9 @@ public class DetailActivity extends BaseActivity implements ImageLoader.Listener
         else if (id == R.id.action_do) {
             controller.toActivity(FormActivity.class);
         }
+        else if (id == R.id.action_share) {
+            controller.share();
+        }
 
         return super.onOptionsItemSelected(item);
     }
