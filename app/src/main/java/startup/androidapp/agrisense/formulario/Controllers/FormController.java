@@ -56,7 +56,7 @@ public class FormController {
                     @Override
                     public void run() {
                         dialog.dismiss();
-                        globalHelper.getUIHelper().ShowAlertDialogNotification("Connection Error", "Connection error please try again.", "OK");
+                        globalHelper.getUIHelper().ShowAlertDialogNotification("Erro de conexão", "por favor tente novamente", "OK");
                     }
                 });
             }
@@ -67,12 +67,12 @@ public class FormController {
                     @Override
                     public void run() {
                         if (!response.isEmpty() && response != null) {
-                            Toast.makeText(activity, "Process successful", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(activity, "Processado com sucesso", Toast.LENGTH_SHORT).show();
                             dialog.dismiss();
                             toActivity(MainActivity.class);
                         }
                         else {
-                            globalHelper.getUIHelper().ShowAlertDialogNotification("Failed", "Process Failed", "OK");
+                            globalHelper.getUIHelper().ShowAlertDialogNotification("Falha", "Erro ao processar a solicitação", "OK");
                             dialog.dismiss();
                         }
                     }

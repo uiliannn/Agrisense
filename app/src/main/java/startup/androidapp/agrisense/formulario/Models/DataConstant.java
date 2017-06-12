@@ -12,7 +12,7 @@ public class DataConstant {
     public static String BASE_URL = SERVER_URL + "mdataaccess/";
     public static String ASSET_URL = SERVER_URL + "assets/uploaded/";
     public static String JWT_KEY = "NCK*";
-    public static String FOLDER_SAVE = "Android/data/id.androidapp.agrisense.formulario/";
+    public static String FOLDER_SAVE = "Android/data/startup.androidapp.agrisense.formulario/";
     public static String DEFAULT_FILENAME = "agri_";
     public static int REQUEST_CAMERA = 101;
     public static int SELECT_FILE = 100;

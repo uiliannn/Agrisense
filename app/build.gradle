@@ -12,7 +12,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "id.androidapp.agrisense.formulario"
+        applicationId "startup.androidapp.agrisense.formulario"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
