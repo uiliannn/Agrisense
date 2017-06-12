@@ -35,7 +35,6 @@ public class DetailController {
     }
     public void share() {
         Intent shareIntent = new Intent();
-
         shareIntent.setAction(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_TEXT,"Titulo: "+activity.title+",   Descrição: "+activity.description+", Link da imagem: "+ASSET_URL+activity.file_documentation);
         shareIntent.setType("text/plain");

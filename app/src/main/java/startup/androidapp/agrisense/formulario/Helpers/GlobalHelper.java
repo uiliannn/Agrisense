@@ -115,7 +115,7 @@ public class GlobalHelper {
         return "";
     }
 
-    public Notification showNotification(String str, Context context) {
+    public Notification showNotificatio(String str, Context context) {
         Intent intent = new Intent(context, SplashActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         PendingIntent pendIntent = PendingIntent.getActivity(context, 0, intent, 0);
