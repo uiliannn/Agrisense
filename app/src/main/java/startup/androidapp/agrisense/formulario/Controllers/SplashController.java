@@ -3,6 +3,7 @@ package startup.androidapp.agrisense.formulario.Controllers;
 import android.content.Intent;
 
 import startup.androidapp.agrisense.formulario.Helpers.GlobalHelper;
+import startup.androidapp.agrisense.formulario.Views.LoginActivity;
 import startup.androidapp.agrisense.formulario.Views.MainActivity;
 import startup.androidapp.agrisense.formulario.Views.SplashActivity;
 
@@ -25,7 +26,7 @@ public class SplashController {
                     e.printStackTrace();
                 }
                 finally {
-                    toActivity(MainActivity.class);
+                    toActivity(LoginActivity.class);
                 }
             }
         };
